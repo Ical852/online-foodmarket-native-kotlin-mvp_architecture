@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.signup.SignUpAddressFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="24dp"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="26dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/TextView.PoppinsNormal16sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone No." />
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:background="@drawable/shape_rectangle_outline_8_020202"
+            android:layout_marginTop="6dp"
+            android:padding="10dp"
+            style="@style/EditText.PoppinsNormal14sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your phone number"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:background="@drawable/shape_rectangle_outline_8_020202"
+            android:layout_marginTop="6dp"
+            android:padding="10dp"
+            style="@style/EditText.PoppinsNormal14sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your address"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="House No." />
+
+        <EditText
+            android:id="@+id/etHouseNumber"
+            android:background="@drawable/shape_rectangle_outline_8_020202"
+            android:layout_marginTop="6dp"
+            android:padding="10dp"
+            style="@style/EditText.PoppinsNormal14sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your house number"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            style="@style/TextView.PoppinsNormal16sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City" />
+
+        <EditText
+            android:id="@+id/etCity"
+            android:background="@drawable/shape_rectangle_outline_8_020202"
+            android:layout_marginTop="6dp"
+            android:padding="10dp"
+            style="@style/EditText.PoppinsNormal14sp020202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your City"/>
+
+        <Button
+            android:id="@+id/btnSignUpNow"
+            android:layout_marginTop="24dp"
+            android:textAllCaps="false"
+            android:text="Sign Up Now"
+            style="@style/Button.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

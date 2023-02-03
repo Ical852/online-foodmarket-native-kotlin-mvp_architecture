@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.detail.PaymentSuccessFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="200dp"
+        android:layout_height="176dp"
+        android:src="@drawable/ic_success_order" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        style="@style/TextView.PoppinsNormal20sp020202"
+        android:gravity="center"
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You’ve Made Order" />
+
+    <TextView
+        android:layout_marginTop="6dp"
+        style="@style/TextView.PoppinsNormal14sp8D92A3"
+        android:gravity="center"
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Just stay at home while we are\npreparing your best foods" />
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btnOtherFoods"
+        style="@style/Button.Primary"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Order Other Foods" />
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btnViewOrder"
+        style="@style/Button.Secondary"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="View My Order" />
+</LinearLayout>
